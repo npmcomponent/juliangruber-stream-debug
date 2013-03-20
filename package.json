@@ -1,0 +1,25 @@
+{
+  "name" : "stream-debug",
+  "description" : "Debug streams.",
+  "version" : "0.0.0",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/juliangruber/stream-debug.git"
+  },
+  "homepage": "https://github.com/juliangruber/stream-debug",
+  "main" : "index.js",
+  "scripts" : {
+    "test" : "tap test/*.js"
+  },
+  "dependencies" : {},
+  "devDependencies" : {
+    "tap" : "*"
+  },
+  "keywords": ["stream","streams","debug","loud"],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
