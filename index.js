@@ -1,6 +1,8 @@
 module.exports = debug;
 
 function debug (stream, name) {
+  name = name || 'stream-' + Math.random().toString(16).slice(2);
+
   function log (ev) {
     return function () {
       console.log('[' + name + '] ' + ev + ';');
