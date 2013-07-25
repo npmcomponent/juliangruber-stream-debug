@@ -1,9 +1,9 @@
 module.exports = debug;
 
 function debug (stream, name) {
-  function log (event) {
+  function log (ev) {
     return function () {
-      console.log('[' + name + '] ' + event + ';');
+      console.log('[' + name + '] ' + ev + ';');
     }
   }
 
