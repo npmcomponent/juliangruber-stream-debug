@@ -12,7 +12,7 @@ var Stream = require('stream');
 var stream = new Stream();
 debug(stream, 'name');
 stream.emit('data', 'foo');
-// console.log: [name] data;
+// console.log: [name] data
 ```
 
 ## API
