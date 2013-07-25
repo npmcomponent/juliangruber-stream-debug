@@ -5,7 +5,7 @@ function debug (stream, name) {
 
   function log (ev) {
     return function () {
-      console.log('[' + name + '] ' + ev + ';');
+      console.log('[' + name + '] ' + ev);
     };
   }
 
