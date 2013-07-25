@@ -17,9 +17,9 @@ stream.emit('data', 'foo');
 
 ## API
 
-### debug(stream, name)
+### debug(stream[, name])
 
-Debug `stream` with `name`. Returns `stream` so you can do
+Debug `stream` with optional `name`. Returns `stream` so you can do
 
 ```js
 var stream = debug(new Stream(), 'name');
